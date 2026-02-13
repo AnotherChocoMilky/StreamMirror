@@ -31,7 +31,7 @@ const SERVERS = {
   },
 };
 
-const DEFAULT_SERVER = 'vidfast';
+const DEFAULT_SERVER = 'vidlink';
 
 export default {
   async fetch(request, env, ctx) {
@@ -773,7 +773,7 @@ function getApiDocsJson() {
     name: 'StreamMirror API',
     version: '1.0.0',
     description: 'Multi-server movie & TV show embed player API',
-    baseUrl: 'https://your-worker.workers.dev',
+    baseUrl: 'https://stream-mirror.jameslandon220.workers.dev',
     endpoints: {
       embed: {
         movie: {
@@ -869,7 +869,7 @@ function getApiDocsJson() {
             episode: 'Required for TV shows',
           },
           optionalQueryParams: {
-            server: 'Server ID (default: vidfast)',
+            server: 'Server ID (default: vidlink)',
           },
         },
         docs: {
