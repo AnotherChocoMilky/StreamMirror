@@ -372,7 +372,7 @@ function renderHomePage() {
       
       <h3>Movie Embed</h3>
       <pre><code>&lt;iframe 
-  src="https://your-worker.workers.dev/embed/movie/533535?autoPlay=true" 
+  src="https://stream-mirror.jameslandon220.workers.dev/embed/movie/533535?autoPlay=true" 
   width="100%" height="100%" 
   frameborder="0" allowfullscreen
   allow="encrypted-media"
@@ -380,7 +380,7 @@ function renderHomePage() {
 
       <h3 style="margin-top: 20px;">TV Show Embed</h3>
       <pre><code>&lt;iframe 
-  src="https://your-worker.workers.dev/embed/tv/94997/1/1?autoPlay=true" 
+  src="https://stream-mirror.jameslandon220.workers.dev/embed/tv/94997/1/1?autoPlay=true" 
   width="100%" height="100%" 
   frameborder="0" allowfullscreen
   allow="encrypted-media"
@@ -388,7 +388,7 @@ function renderHomePage() {
 
       <h3 style="margin-top: 20px;">Anime Embed (VidLink only)</h3>
       <pre><code>&lt;iframe 
-  src="https://your-worker.workers.dev/embed/anime/5/1/sub" 
+  src="https://stream-mirror.jameslandon220.workers.dev/embed/anime/5/1/sub" 
   width="100%" height="100%" 
   frameborder="0" allowfullscreen
   allow="encrypted-media"
