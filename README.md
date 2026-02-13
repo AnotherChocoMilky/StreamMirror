@@ -36,34 +36,34 @@ StreamMirror acts as a **smart aggregator**:
 Embed a movie, TV show, or anime player in seconds.
 
 ### 🎬 Movie Embed
-''' <iframe 
+<iframe 
   src="https://stream-mirror.jameslandon220.workers.dev/embed/movie/533535?autoPlay=true" 
   width="100%" 
   height="100%" 
   frameborder="0" 
   allowfullscreen
   allow="encrypted-media">
-</iframe> '''
+</iframe>
 
 ### 📺 TV Show Embed
-''' <iframe 
+<iframe 
   src="https://stream-mirror.jameslandon220.workers.dev/embed/tv/94997/1/1?autoPlay=true" 
   width="100%" 
   height="100%" 
   frameborder="0" 
   allowfullscreen
   allow="encrypted-media">
-</iframe> '''
+</iframe>
 
 ### 🍥 Anime Embed (VidLink Only)
-''' <iframe 
+<iframe 
   src="https://stream-mirror.jameslandon220.workers.dev/embed/anime/5/1/sub" 
   width="100%" 
   height="100%" 
   frameborder="0" 
   allowfullscreen
   allow="encrypted-media">
-</iframe> '''
+</iframe>
 
 ---
 
@@ -83,12 +83,12 @@ Choose your preferred streaming server using the `server` parameter:
 > If no server is specified, StreamMirror automatically selects the best available source.
 
 ### 🎯 Server Selection Example
-''' <iframe 
+<iframe 
   src="https://stream-mirror.jameslandon220.workers.dev/embed/movie/533535?server=vidfast" 
   width="100%" 
   height="100%" 
   allowfullscreen>
-</iframe> '''
+</iframe>
 
 ---
 
