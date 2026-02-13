@@ -36,6 +36,7 @@ StreamMirror acts as a **smart aggregator**:
 Embed a movie, TV show, or anime player in seconds.
 
 ### 🎬 Movie Embed
+```html
 <iframe 
   src="https://stream-mirror.jameslandon220.workers.dev/embed/movie/533535?autoPlay=true" 
   width="100%" 
@@ -44,8 +45,11 @@ Embed a movie, TV show, or anime player in seconds.
   allowfullscreen
   allow="encrypted-media">
 </iframe>
+````
 
 ### 📺 TV Show Embed
+
+```html
 <iframe 
   src="https://stream-mirror.jameslandon220.workers.dev/embed/tv/94997/1/1?autoPlay=true" 
   width="100%" 
@@ -54,8 +58,11 @@ Embed a movie, TV show, or anime player in seconds.
   allowfullscreen
   allow="encrypted-media">
 </iframe>
+```
 
 ### 🍥 Anime Embed (VidLink Only)
+
+```html
 <iframe 
   src="https://stream-mirror.jameslandon220.workers.dev/embed/anime/5/1/sub" 
   width="100%" 
@@ -64,6 +71,7 @@ Embed a movie, TV show, or anime player in seconds.
   allowfullscreen
   allow="encrypted-media">
 </iframe>
+```
 
 ---
 
@@ -71,38 +79,41 @@ Embed a movie, TV show, or anime player in seconds.
 
 Choose your preferred streaming server using the `server` parameter:
 
-| Server ID   | Name       | Movie Example                               | TV Example                                  |
-|-------------|------------|---------------------------------------------|---------------------------------------------|
-| vidup       | VidUp      | `/embed/movie/533535?server=vidup`          | `/embed/tv/94997/1/1?server=vidup`         |
-| mapple      | Mapple     | `/embed/movie/533535?server=mapple`         | `/embed/tv/94997/1/1?server=mapple`        |
-| vidfast     | VidFast    | `/embed/movie/533535?server=vidfast`        | `/embed/tv/94997/1/1?server=vidfast`       |
-| vidlink     | VidLink    | `/embed/movie/533535?server=vidlink`        | `/embed/tv/94997/1/1?server=vidlink`       |
-| onemovies   | 111Movies  | `/embed/movie/533535?server=onemovies`      | `/embed/tv/94997/1/1?server=onemovies`     |
-| videasy     | Videasy    | `/embed/movie/533535?server=videasy`        | `/embed/tv/94997/1/1?server=videasy`       |
+| Server ID | Name      | Movie Example                          | TV Example                             |
+| --------- | --------- | -------------------------------------- | -------------------------------------- |
+| vidup     | VidUp     | `/embed/movie/533535?server=vidup`     | `/embed/tv/94997/1/1?server=vidup`     |
+| mapple    | Mapple    | `/embed/movie/533535?server=mapple`    | `/embed/tv/94997/1/1?server=mapple`    |
+| vidfast   | VidFast   | `/embed/movie/533535?server=vidfast`   | `/embed/tv/94997/1/1?server=vidfast`   |
+| vidlink   | VidLink   | `/embed/movie/533535?server=vidlink`   | `/embed/tv/94997/1/1?server=vidlink`   |
+| onemovies | 111Movies | `/embed/movie/533535?server=onemovies` | `/embed/tv/94997/1/1?server=onemovies` |
+| videasy   | Videasy   | `/embed/movie/533535?server=videasy`   | `/embed/tv/94997/1/1?server=videasy`   |
 
 > If no server is specified, StreamMirror automatically selects the best available source.
 
 ### 🎯 Server Selection Example
+
+```html
 <iframe 
   src="https://stream-mirror.jameslandon220.workers.dev/embed/movie/533535?server=vidfast" 
   width="100%" 
   height="100%" 
   allowfullscreen>
 </iframe>
+```
 
 ---
 
 ## ⚖️ Legal Notice
 
-**StreamMirror is proprietary software.**  
+**StreamMirror is proprietary software.**
 
-Unauthorized use, reproduction, redistribution, or self-hosting is strictly prohibited and will result in **legal action**.  
+Unauthorized use, reproduction, redistribution, or self-hosting is strictly prohibited and will result in **legal action**.
 
-Do **not attempt to copy, reverse-engineer, or redistribute** this software.  
+Do **not attempt to copy, reverse-engineer, or redistribute** this software.
 
 ---
 
 ## 🎬 Ready to Stream
 
-StreamMirror delivers movies, TV shows, and anime **instantly, safely, and reliably**.  
+StreamMirror delivers movies, TV shows, and anime **instantly, safely, and reliably**.
 Use it responsibly and enjoy the content. 🍿
