@@ -506,23 +506,12 @@ function renderPlayerPage(type, id, season, episode, server, searchParams) {
       width: 100%;
       border: none;
     }
-    .back-btn {
-      color: #71717a;
-      font-size: 0.85rem;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-    }
-    .back-btn:hover { color: #e4e4e7; background: #1a1a2e; text-decoration: none; }
   </style>
 </head>
 <body>
   <div class="player-wrapper">
     <div class="player-toolbar">
       <div class="toolbar-left">
-        <a href="/" class="back-btn">← Home</a>
         <span class="toolbar-title">🎬 ${title}</span>
       </div>
       <div class="server-group">
@@ -540,7 +529,6 @@ function renderPlayerPage(type, id, season, episode, server, searchParams) {
       allowfullscreen 
       allow="encrypted-media; autoplay; fullscreen"
       referrerpolicy="origin"
-      sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-presentation"
     ></iframe>
   </div>
 </body>
@@ -569,12 +557,6 @@ function renderDirectPlayer(embedUrl, title, searchParams) {
       display: flex; align-items: center; gap: 12px;
       z-index: 10; flex-shrink: 0;
     }
-    .back-btn {
-      color: #71717a; font-size: 0.85rem;
-      display: flex; align-items: center; gap: 4px;
-      padding: 4px 8px; border-radius: 6px;
-    }
-    .back-btn:hover { color: #e4e4e7; background: #1a1a2e; text-decoration: none; }
     .toolbar-title { font-size: 0.9rem; font-weight: 600; color: #e4e4e7; }
     .player-frame { flex: 1; width: 100%; border: none; }
   </style>
@@ -582,7 +564,6 @@ function renderDirectPlayer(embedUrl, title, searchParams) {
 <body>
   <div class="player-wrapper">
     <div class="player-toolbar">
-      <a href="/" class="back-btn">← Home</a>
       <span class="toolbar-title">🎬 ${title} (VidLink)</span>
     </div>
     <iframe 
@@ -591,7 +572,6 @@ function renderDirectPlayer(embedUrl, title, searchParams) {
       allowfullscreen 
       allow="encrypted-media; autoplay; fullscreen"
       referrerpolicy="origin"
-      sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-presentation"
     ></iframe>
   </div>
 </body>
