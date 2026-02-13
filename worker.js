@@ -711,7 +711,7 @@ GET /embed/anime/21/1/sub?primaryColor=FF6B00&icons=vid</code></pre>
     { "id": "onemovies", "name": "111Movies" },
     { "id": "videasy", "name": "Videasy" }
   ],
-  "default": "vidfast"
+  "default": "vidlink"
 }</code></pre>
 
       <h3 style="margin-top: 24px;"><span class="badge badge-get">GET</span> <code>/api/embed-url</code></h3>
